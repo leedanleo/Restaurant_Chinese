@@ -1,0 +1,14 @@
+#title{
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+
+@media(max-width: 767px){
+    #title{
+        font-size: 22px;
+        color: #000000;
+        font-weight: bold;
+    }
+}

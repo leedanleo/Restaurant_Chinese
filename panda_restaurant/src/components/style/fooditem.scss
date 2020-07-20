@@ -1,0 +1,36 @@
+$default-color: #000000;
+$food-item-font: 16px;
+
+div#food-name{
+    font-size: $food-item-font;
+    color: $default-color;
+    font-weight: bold;
+    float:left;
+}
+
+div#food-price{
+    font-size: $food-item-font;
+    color: $default-color;
+    font-weight: bold;
+    float: right;
+}
+div#food-description{
+    font-size: $food-item-font;
+    color: $default-color;
+    float: left;
+}
+
+
+@media(max-width: 767px){
+    #food_name{
+        font-size: 22px;
+        color: $default-color;
+        font-weight: bold;
+    }
+
+    #food_price{
+        font-size: 32px;
+        color: $default-color;
+        font-weight: bold;
+    }
+}
